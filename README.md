@@ -44,7 +44,7 @@ curl --location --request POST 'http://localhost:8080/account/register' \
 }'
 ```
 
-2. Transfer Balance between accounts using below URL
+2. Transfer Balance between accounts using URL : http://localhost:8080/bank
 ```
 curl --location --request POST 'http://localhost:8080/bank' \
 --header 'Content-Type: application/json' \
@@ -56,7 +56,7 @@ curl --location --request POST 'http://localhost:8080/bank' \
 }'
 ```
 
-3. List All account balances :
+3. List All account balances using URL : http://localhost:8080/account/list
 
 ```
 curl --location --request GET 'http://localhost:8080/account/list' \
