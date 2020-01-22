@@ -1,6 +1,6 @@
 # Bank Account Transfer Application
 
-Java RESTful API for money transfers between accounts
+A Java RESTful API for money transfers between accounts
 
 ### Technologies
 - JAX-RS API
